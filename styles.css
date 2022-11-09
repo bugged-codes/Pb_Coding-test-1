@@ -1,0 +1,42 @@
+body{
+    background-image: linear-gradient( rgb(0 0 0) -17%,rgb(74 0 75), rgb(244 0 12));
+}
+
+#parent-flex1{
+    margin-bottom: 2rem;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+#facex-logo{
+    height: 111px;
+    border-radius: 50%;
+}
+
+#parent-flex2{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.child-flex{
+    width: 20rem;
+    color: black;
+    text-transform: uppercase;
+    margin: 1rem auto;
+}
+#child-flex1{
+    font-size: 2em;
+    font-weight: bold;
+}
+#child-flex2{
+    margin-top: 1rem;
+}
+#child-flex3{
+    font-size: 3em;
+    font-weight: bolder;
+}
