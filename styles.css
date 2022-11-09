@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient( rgb(0 0 0) -17%,rgb(74 0 75), rgb(244 0 12));
+    background-image: linear-gradient( rgb(0 0 0) 0%,rgb(74 0 75) 25%,rgb(244 0 12) 66%)
 }
 
 #parent-flex1{
