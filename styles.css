@@ -1,9 +1,10 @@
 body{
-    background-image: linear-gradient( rgb(0 0 0) 0%,rgb(74 0 75) 25%,rgb(244 0 12) 66%)
+    background-image: linear-gradient( rgb(0 0 0) 0%,rgb(74 0 75) 25%,rgb(244 0 12) 66%);
+    height: 98vh;
 }
 
 #parent-flex1{
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     width: 100%;
     height: fit-content;
     display: flex;
@@ -17,17 +18,18 @@ body{
 }
 
 #parent-flex2{
+    height: 35rem;
+    margin-top: 2rem;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
 }
 .child-flex{
     width: 20rem;
     color: black;
     text-transform: uppercase;
-    margin: 1rem auto;
 }
 #child-flex1{
     font-size: 2em;
@@ -40,9 +42,8 @@ body{
 #child-flex2>img{
     width: 70%;
     border-radius: 20%;
-    height: 120%;
+    height: 100%;
     object-fit: fill;
-    object-position: center;
 }
 #child-flex3{
     font-size: 3em;
